@@ -1,0 +1,27 @@
+body {
+    background-color: #F2EEEA;
+    font-size: 1.1rem;
+    font-family: 'Karla', sans-serif;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+}
+
+.logo img {
+    max-width: 98px;
+}
+
+.intro {
+    background-color: white;
+}
+
+.button {
+    background-color: #111;
+    color: #fff;
+    border: 0;
+}
+input, .button {
+    height: 44px;
+}
