@@ -1,5 +1,4 @@
 body {
-    /* background-color: #F2EEEA; */
     font-size: 1.1rem;
     font-family: 'Karla', sans-serif;
 }
@@ -9,14 +8,6 @@ h1 {
     font-size: 5rem;
     font-weight: 300;
     margin: 30px 0 0 -10px;
-}
-
-h5 {
-    font-family: 'Crimson Text', serif;
-
-    font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 1.3em;
 }
 
 .logo img {
@@ -32,14 +23,13 @@ h5 {
     color: #fff;
     border: 0;
 }
+
 input, .button {
     height: 64px;
 }
 p {
     line-height: 1.5em;
-    font-weight: ;
 }
-
 p.copyright {
     color: #858585;
     font-size: 1rem;
