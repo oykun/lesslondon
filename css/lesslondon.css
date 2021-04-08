@@ -1,13 +1,13 @@
 body {
     font-family: sans-serif;
-    color: #fff;
+    color: #111;
     text-align: center;
-    background: #000;
+    background: #fff;
 }
 
 .wrapper {
-    min-height: 100vh;
-    height: 100%;
+    min-height: 90vh;
+    height: 90%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,12 +17,23 @@ body {
 }
 
 h1 {
-    font-weight: 300;
+    font-weight: 500;
     line-height: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    padding-bottom: 2rem;
 }
 
-a { 
+h2 {
+    font-weight: 300;
+    line-height: 2rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.05rem;
+    text-align: left;
+    margin-left: 4rem;
+}
+
+a {
     color: #858585;
 }
 
@@ -30,19 +41,22 @@ a:hover {
     text-decoration: none;
 }
 
-p { line-height: 1.5em; }
+p {
+    line-height: 1.5em;
+}
 
 .logo {
     height: 100%;
     flex-grow: 1;
     display: flex;
-    vertical-align: middle;
     box-sizing: border-box;
     align-items: center;
 
-    img {
-        max-width: 300px;
-    }
+img {
+    max-width: 300px;
+    margin-right: 3rem;
+}
+
 }
 
 .content {
@@ -52,23 +66,26 @@ p { line-height: 1.5em; }
 }
 
 .mailchimp form {
-    padding: 50px;
+    padding: 20px;
 }
 
 input, .button {
-    height: 50px;
-    text-align: center;
-    background-color: #000;
-    color: #fff;
+    text-align: left;
     border: 0;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    padding: 10px;
 }
+
 input {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #111;
 }
+
 .button {
+    background: #fff;
+    margin-left: 10px;
 }
 
 .copyright {
-    color: #858585;
+    font-size: 0.8rem;
+    color: #4f4f4f;
 }
